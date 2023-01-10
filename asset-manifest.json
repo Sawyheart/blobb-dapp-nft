@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/blobb-dapp-nft/static/css/main.19ae1404.css",
-    "main.js": "/blobb-dapp-nft/static/js/main.424c36d9.js",
+    "main.css": "/blobb-dapp-nft/static/css/main.5e68e85a.css",
+    "main.js": "/blobb-dapp-nft/static/js/main.b75c813d.js",
     "index.html": "/blobb-dapp-nft/index.html",
     "static/media/blobbBackground.svg": "/blobb-dapp-nft/static/media/blobbBackground.4b9fe251129cde0483d2.svg",
-    "main.19ae1404.css.map": "/blobb-dapp-nft/static/css/main.19ae1404.css.map",
-    "main.424c36d9.js.map": "/blobb-dapp-nft/static/js/main.424c36d9.js.map"
+    "main.5e68e85a.css.map": "/blobb-dapp-nft/static/css/main.5e68e85a.css.map",
+    "main.b75c813d.js.map": "/blobb-dapp-nft/static/js/main.b75c813d.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ae1404.css",
-    "static/js/main.424c36d9.js"
+    "static/css/main.5e68e85a.css",
+    "static/js/main.b75c813d.js"
   ]
 }
