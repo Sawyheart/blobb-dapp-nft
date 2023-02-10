@@ -3,6 +3,9 @@ const networkConfig = {
   31337: {
     name: "LOCALHOST"
   },
+  1337: {
+    name: "LOCALHOST"
+  },
   1: {
     name: "MAINNET"
   },

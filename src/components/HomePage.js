@@ -2,11 +2,15 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import EtherContext from "../contexts/EtherContext/EtherProvider";
 
+import { useWeb3Modal } from "@web3modal/react"
+
 import classes from "./HomePage.module.css"
 
 function HomePage() {
   const {state: { account }, funcs: { connectWallet }} = useContext(EtherContext)
   const navigate = useNavigate()
+  const { open } = useWeb3Modal()
+  // setDefaultChain(localhost)
   console.log("HOME PAGE", account, Boolean(account))
 
   return(
@@ -33,8 +37,8 @@ function HomePage() {
               blobb <span className={classes.arrows} style={{"--arrow-color": "lime"}}>{">>"}</span>
             </div>
           </div> :
-          <div className={classes.explore_div} onClick={connectWallet}>
-            <div className={classes.connect_button}>
+          <div className={classes.explore_div} /*onClick={connectWallet}*/ >
+            <div className={classes.connect_button} onClick={open}>
               CONNECT YOUR WALLET
             </div>
           </div>

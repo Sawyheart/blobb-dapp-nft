@@ -7,7 +7,7 @@ function BlobbColorsPicker({ bColors, colorPickedFunc }) {
       <span className={classes.info_price_span}>
         i
         <span className={classes.price_span}>
-          <span className={classes.highlight}>0.01 ETH</span> + <span className={classes.highlight}>GAS</span>
+          <span className={classes.highlight}>20 MATIC</span> + <span className={classes.highlight}>GAS</span>
         </span>
       </span>
       <div className={classes.colors_div}>

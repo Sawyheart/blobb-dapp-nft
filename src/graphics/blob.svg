@@ -7,10 +7,10 @@
     svg{
       --a-dur: 10s;
 
-      --sColor: 255,0,0;
-      --eColor: 255,255,0;
-      --hpAlpha: 1;
-      --multiColorDur: 5s;
+      --sColor: 43,85,67;
+      --eColor: 45,191,60;
+      --hpAlpha: .25;
+      --multiColorDur: 0s;
 
       /* background: linear-gradient(90deg, #1e1e1e, #1e1e1ea0); */
       background-color: #202020;
@@ -43,7 +43,7 @@
     }
     #b-lvl{
       transform: translate(150px, 50px); /*translate(150px, 50px)*/
-      animation: lvl infinite var(--a-dur) ease forwards;
+      animation: lvl1 infinite var(--a-dur) ease forwards;
     }
     #ver {
       transform: translate(130px, 147px) rotate(0deg);
@@ -58,7 +58,7 @@
     #c {
       transform: translate(100px, 3px) rotate(25deg) scale(1.5);
       animation: c_anim infinite var(--a-dur) ease forwards;
-      opacity: 0;
+      opacity: 1;
     }
 
     .fillColor, #start-fill {
@@ -151,7 +151,7 @@
     <circle r="10" stroke="url(#s-grad)" stroke-width="2" filter="blur(1px)" />
     <circle r="15" stroke="url(#c-grad)" stroke-dasharray="10" stroke-dashoffset="4" pathLength="10" stroke-width="2" stroke-linecap="round" filter="drop-shadow(0 0 1 #000b)" transform="rotate(-90)" />
     <text fill="url(#c-grad)" text-anchor="middle" font-family="Titan One" font-size="12px" filter="drop-shadow(0 1 0 #000d)" transform="translate(0 4)">
-      5
+      1
     </text>
   </g>
 
@@ -202,7 +202,7 @@
         <!-- <animate attributeName="stop-color" values="#ffff00;#00ffff;#ff00ff;#ffff00" dur="5s" repeatCount="indefinite" /> -->
 
       </stop>
-      <animateTransform attributeName="gradientTransform1" type="rotate" values="0 .5 .5;360 .5 .5" dur="1.5s" repeatCount="indefinite" />
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="1.5s" repeatCount="indefinite" />
     </linearGradient>
     <linearGradient id="t-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#fffd" />

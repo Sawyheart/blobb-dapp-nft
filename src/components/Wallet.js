@@ -2,6 +2,10 @@ import { useContext, useMemo } from "react"
 import { useLocation, useNavigate } from "react-router-dom"
 import EtherContext from "../contexts/EtherContext/EtherProvider"
 import MyBlobContext from "../contexts/MyBlobContext/MyBlobProvider"
+
+import { useWeb3Modal } from "@web3modal/react"
+import { localhost } from "wagmi/chains";
+
 import classes from "./Wallet.module.css"
 
 let { networkConfig } = require("../helper-data.js")
@@ -11,6 +15,7 @@ function Wallet({ currAccount, connectWalletFunc }) {
   const {blob: { colors }} = useContext(MyBlobContext)
   const location = useLocation()
   const navigate = useNavigate()
+  const { open } = useWeb3Modal()
 
   const styleVars = useMemo(() => {
     console.log(colors)
@@ -25,8 +30,9 @@ function Wallet({ currAccount, connectWalletFunc }) {
   }
 
   function walletTextClickHandler() {
-    if(currAccount) window.open("https://mumbai.polygonscan.com/address/"+currAccount, "_blank")
-    else connectWalletFunc()
+    open()
+    // if(currAccount) window.open("https://mumbai.polygonscan.com/address/"+currAccount, "_blank")
+    // else connectWalletFunc()
   }
 
   return(
