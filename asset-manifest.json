@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/blobb-dapp-nft/static/css/main.c2785d33.css",
-    "main.js": "/blobb-dapp-nft/static/js/main.f747c1c0.js",
+    "main.css": "/blobb-dapp-nft/static/css/main.9bda0a97.css",
+    "main.js": "/blobb-dapp-nft/static/js/main.1b841e03.js",
+    "static/js/683.30b01687.chunk.js": "/blobb-dapp-nft/static/js/683.30b01687.chunk.js",
+    "static/js/294.c91f42d0.chunk.js": "/blobb-dapp-nft/static/js/294.c91f42d0.chunk.js",
+    "static/media/opensea.svg": "/blobb-dapp-nft/static/media/opensea.eb861251537e9fb8d657d1b6f1626fcb.svg",
+    "static/media/twitter.svg": "/blobb-dapp-nft/static/media/twitter.a72ca542b528c54349dee9475641f6bf.svg",
+    "static/media/etherscan.svg": "/blobb-dapp-nft/static/media/etherscan.97d1edc40ee6cc0baf419405b75671c1.svg",
     "index.html": "/blobb-dapp-nft/index.html",
     "static/media/blobbBackground.svg": "/blobb-dapp-nft/static/media/blobbBackground.525a83d3c116083660f7.svg",
-    "main.c2785d33.css.map": "/blobb-dapp-nft/static/css/main.c2785d33.css.map",
-    "main.f747c1c0.js.map": "/blobb-dapp-nft/static/js/main.f747c1c0.js.map"
+    "static/media/doubleArrow.svg": "/blobb-dapp-nft/static/media/doubleArrow.5741c68e7b78c38cc73f9875c88da509.svg",
+    "main.9bda0a97.css.map": "/blobb-dapp-nft/static/css/main.9bda0a97.css.map",
+    "main.1b841e03.js.map": "/blobb-dapp-nft/static/js/main.1b841e03.js.map",
+    "683.30b01687.chunk.js.map": "/blobb-dapp-nft/static/js/683.30b01687.chunk.js.map",
+    "294.c91f42d0.chunk.js.map": "/blobb-dapp-nft/static/js/294.c91f42d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2785d33.css",
-    "static/js/main.f747c1c0.js"
+    "static/css/main.9bda0a97.css",
+    "static/js/main.1b841e03.js"
   ]
 }
